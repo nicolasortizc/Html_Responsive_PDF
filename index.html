@@ -6,11 +6,50 @@
             
             <div class="col-lg-4 col-md-2 col-sm-2 col-xs-2">
             <div class="pdf-single-pro">
-            <div class="media" style="background-color: rgb(255, 255, 255); width: 580px;"><iframe width="575" height="700" src="pdf/mamunur.pdf"></iframe></div>
+            <div class="media" style="background-color: rgb(255, 255, 255); width: 580px;"><iframe width="575" height="700" src="ejemplo_esp.pdf"></iframe></div>
             </div>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
             </div>
         </div>
     </div>
+
+    <a type="button" class="btn btn-primary" download="prueba" href="pdf/mamunur.pdf" ><i class="fas fa-download"></i></a>
 </html>
+
+<body>
+    <script>
+        function enableSending(){
+          let btn = document.getElementById("enviar");
+          let checkbox = document.getElementById("terms");
+          btn.disabled = !checkbox.checked;
+        }
+        
+        
+        </script>
+        
+        
+        
+        <script>
+            let print = (doc) => {
+                let objFra = document.createElement('iframe');   // Create an IFrame.
+                objFra.style.visibility = 'hidden';    // Hide the frame.
+                objFra.src = doc;                      // Set source.
+                document.body.appendChild(objFra);  // Add the frame to the web page.
+                objFra.contentWindow.focus();       // Set focus.
+                objFra.contentWindow.print();      // Print it.
+            }
+            
+            
+            // Using regular js features.
+            
+        //     function print(doc) {
+        //         var objFra = document.createElement('iframe');
+        //         objFra.style.visibility = 'hidden';
+        //         objFra.src = doc;                  
+        //         document.body.appendChild(objFra);
+        //         objFra.contentWindow.focus();  
+        //         objFra.contentWindow.print();  
+        //     }
+    </script>
+</body>
