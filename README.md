@@ -1,4 +1,4 @@
-# Html PDF 
+# Html Responsive PDF 
 
 * Etiqueta <code>iframe</code> para incrustar PDF en HTML
 
@@ -10,11 +10,19 @@
 ```
 <iframe src="files/ejemplo.pdf" height="100%" width="100%"></iframe>
 ```
+
+* Código del CSS Responsive:
+```
+.responsive-pdf {
+	min-height: 700px;
+	@media (max-width: 767.98px) {
+		min-height: 500px;
+	}
+}
+```
 # Demo
 
 * <a href="https://nicolasortizc.github.io/Mostrar_PDF_Html/" target="_blank">Link</a>
 
-![image](https://user-images.githubusercontent.com/107442821/177421478-deec5b23-e49f-4290-8fa0-e7cee16f5772.png)
-
-![image](https://user-images.githubusercontent.com/107442821/177421854-b5458625-b48b-4a0e-913a-a45777a4ae73.png)
+![image](https://user-images.githubusercontent.com/107442821/177465801-7ecb6c28-3a6b-4a23-aaf9-c42fca551901.png)
 
