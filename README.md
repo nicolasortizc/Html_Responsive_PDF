@@ -22,7 +22,7 @@
 ```
 # Demo
 
-* <a href="https://nicolasortizc.github.io/Mostrar_PDF_Html/" target="_blank">Link</a>
+* <a href="https://nicolasortizc.github.io/Html_Responsive_PDF/">Link</a>
 
 ![image](https://user-images.githubusercontent.com/107442821/177465801-7ecb6c28-3a6b-4a23-aaf9-c42fca551901.png)
 
